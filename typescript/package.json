@@ -1,0 +1,35 @@
+{
+  "name": "smcprime",
+  "version": "0.1.0",
+  "description": "Ultra-fast primality testing with Montgomery arithmetic (32-bit and 64-bit)",
+  "main": "dist/smcprime.js",
+  "types": "dist/smcprime.d.ts",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "ts-node smcprime.ts"
+  },
+  "keywords": ["prime", "primality", "miller-rabin", "montgomery", "math", "bigint"],
+  "author": "ScaleCode Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scalecode-solutions/smcPrime.git"
+  },
+  "homepage": "https://github.com/scalecode-solutions/smcPrime#readme",
+  "bugs": {
+    "url": "https://github.com/scalecode-solutions/smcPrime/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
