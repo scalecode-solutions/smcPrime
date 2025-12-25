@@ -1,0 +1,16 @@
+[package]
+name = "smcprime"
+version = "0.1.0"
+edition = "2021"
+authors = ["ScaleCode Solutions"]
+description = "Ultra-fast primality testing with Montgomery arithmetic (32-bit and 64-bit)"
+license = "MIT"
+repository = "https://github.com/scalecode-solutions/smcPrime"
+documentation = "https://docs.rs/smcprime"
+readme = "README.md"
+keywords = ["prime", "primality", "miller-rabin", "montgomery", "math"]
+categories = ["algorithms", "mathematics", "no-std"]
+
+[features]
+default = ["std"]
+std = []
